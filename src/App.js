@@ -17,7 +17,7 @@ class App extends React.Component {
       <div>
         <BrowserRouter>
           <Route path="/" exact={true} component={AboutScreen} />
-          <Route path="forcast" exact={true} component={ForcastScreen} />
+          <Route path="/forcast" exact={true} component={ForcastScreen} />
           <Route path="/weather" exact={true} component={WeatherScreen} />
           <div style={{ height: 100 }}></div>
           <Navbar
