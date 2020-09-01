@@ -1,0 +1,14 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+.Seach-bar ul {
+  justify-content: space-between;
+  display: flex;
+}
+.Seach-bar ul li {
+  float: left;
+}

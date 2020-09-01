@@ -1,0 +1,26 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.cards {
+  border: 1px white solid;
+  background-color: white;
+  margin: 0px 20px 20px 0px;
+  color: black;
+  float: left;
+  height: 370px;
+  width: 250px;
+}
+.cards .time {
+  border: 1px white solid;
+  color: red;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.03);
+  padding: 10px 17px;
+}
+
+.cards .data {
+  font-weight: bold;
+  padding: 10px;
+}

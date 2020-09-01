@@ -1,0 +1,19 @@
+.textbox {
+  /* border: 1px blue solid; */
+  background-color: rgb(26, 26, 26);
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  overflow: hidden;
+  height: auto;
+  width: 1110px;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+}
+.textbox .context {
+  font-size: 25px;
+  text-align: center;
+  margin: 0px 50px 100px 50px;
+  font-weight: 500;
+}
