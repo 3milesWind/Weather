@@ -16,17 +16,9 @@ class App extends React.Component {
     return (
       <div>
         <BrowserRouter>
-          <Route path="/Weather_app/" exact={true} component={AboutScreen} />
-          <Route
-            path="/Weather_app/forcast"
-            exact={true}
-            component={ForcastScreen}
-          />
-          <Route
-            path="/Weather_app/weather"
-            exact={true}
-            component={WeatherScreen}
-          />
+          <Route path="/" exact={true} component={AboutScreen} />
+          <Route path="forcast" exact={true} component={ForcastScreen} />
+          <Route path="/weather" exact={true} component={WeatherScreen} />
           <div style={{ height: 100 }}></div>
           <Navbar
             style={{ backgroundColor: "#1c1c1c" }}
