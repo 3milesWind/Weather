@@ -16,7 +16,7 @@ class App extends React.Component {
     return (
       <div>
         <BrowserRouter>
-          <Route path="/Weather_app" exact={true} component={AboutScreen} />
+          <Route path="/Weather_app/" exact={true} component={AboutScreen} />
           <Route path="/forcast" exact={true} component={ForcastScreen} />
           <Route path="/weather" exact={true} component={WeatherScreen} />
           <div style={{ height: 100 }}></div>
@@ -28,7 +28,7 @@ class App extends React.Component {
           >
             <Container>
               <Menu inverted>
-                <Menu.Item to="/Weather_app" as={Link}>
+                <Menu.Item to="/Weather_app/" as={Link}>
                   <h4>About</h4>
                 </Menu.Item>
                 <Menu.Item to="/forcast" as={Link}>
